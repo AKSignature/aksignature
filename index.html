@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AK Signature | Catálogo Online</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f3efe8;
+      color: #151515;
+    }
+
+    header {
+      background: linear-gradient(135deg, #080808, #1d1d1d);
+      color: #f5d27a;
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 34px;
+      letter-spacing: 3px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #f8f1df;
+      font-size: 15px;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 14px;
+      border: 1px solid #c8a64b;
+      border-radius: 30px;
+    }
+
+    .hero {
+      padding: 55px 20px;
+      text-align: center;
+      background: radial-gradient(circle, #ffffff 0%, #efe5d7 100%);
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 25px;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #111;
+      color: #f5d27a;
+      text-decoration: none;
+      padding: 13px 24px;
+      border-radius: 30px;
+      font-weight: bold;
+      border: 1px solid #c8a64b;
+    }
+
+    section {
+      padding: 42px 20px;
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.10);
+      border: 1px solid #eee;
+    }
+
+    .image-placeholder {
+      height: 260px;
+      background: linear-gradient(135deg, #ded6c9, #faf7f1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card-content {
+      padding: 18px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      color: #0d0d0d;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .sizes {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #111;
+      color: #f5d27a;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .promo {
+      background: #111;
+      color: #fff;
+      border-radius: 22px;
+      padding: 32px;
+      text-align: center;
+      border: 1px solid #c8a64b;
+    }
+
+    .promo h2 {
+      color: #f5d27a;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #080808;
+      color: #f8f1df;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 30px;
+    }
+
+    footer strong {
+      color: #f5d27a;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 28px; }
+      .hero h2 { font-size: 25px; }
+      .image-placeholder { height: 220px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AK SIGNATURE</h1>
+    <p>Moda masculina premium | Catálogo online</p>
+  </header>
+
+  <nav>
+    <a href="#camisetas">Camisetas</a>
+    <a href="#shorts">Shorts</a>
+    <a href="#perfumes">Perfumes</a>
+    <a href="#promocoes">Promoções</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Elegância e exclusividade em cada detalhe</h2>
+    <p>Conheça as peças disponíveis da AK Signature. Escolha seu produto, confira os tamanhos e solicite diretamente pelo WhatsApp.</p>
+    <a class="btn" href="https://wa.me/5565999999999" target="_blank">Comprar pelo WhatsApp</a>
+  </div>
+
+  <section id="camisetas">
+    <h2 class="section-title">Camisetas</h2>
+    <p class="section-subtitle">Peças masculinas selecionadas para um visual moderno e sofisticado.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="image-placeholder">Adicionar foto da camiseta</div>
+        <div class="card-content">
+          <span class="tag">Disponível</span>
+          <h3>Camiseta Premium Preta</h3>
+          <p class="price">R$ 89,90</p>
+          <p class="sizes">Tamanhos: P, M, G, GG</p>
+          <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Camiseta%20Premium%20Preta" target="_blank">Solicitar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-placeholder">Adicionar foto da camiseta</div>
+        <div class="card-content">
+          <span class="tag">Disponível</span>
+          <h3>Camiseta Premium Branca</h3>
+          <p class="price">R$ 89,90</p>
+          <p class="sizes">Tamanhos: P, M, G, GG</p>
+          <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Camiseta%20Premium%20Branca" target="_blank">Solicitar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shorts">
+    <h2 class="section-title">Shorts e Bermudas</h2>
+    <p class="section-subtitle">Modelos casuais com estilo para o dia a dia.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="image-placeholder">Adicionar foto do short</div>
+        <div class="card-content">
+          <span class="tag">Disponível</span>
+          <h3>Short Masculino Premium</h3>
+          <p class="price">R$ 79,90</p>
+          <p class="sizes">Tamanhos: P, M, G, GG</p>
+          <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Short%20Masculino%20Premium" target="_blank">Solicitar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="perfumes">
+    <h2 class="section-title">Perfumes Árabes</h2>
+    <p class="section-subtitle">Produtos sob encomenda. Consulte disponibilidade e prazo de entrega.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="image-placeholder">Adicionar foto do perfume</div>
+        <div class="card-content">
+          <span class="tag">Sob encomenda</span>
+          <h3>Durrat</h3>
+          <p class="price">Consultar</p>
+          <p class="sizes">Perfume árabe masculino/feminino conforme disponibilidade.</p>
+          <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20quero%20consultar%20o%20perfume%20Durrat" target="_blank">Consultar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-placeholder">Adicionar foto do perfume</div>
+        <div class="card-content">
+          <span class="tag">Sob encomenda</span>
+          <h3>Ameerat Vermelho</h3>
+          <p class="price">Consultar</p>
+          <p class="sizes">Produto sob encomenda.</p>
+          <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20quero%20consultar%20o%20Ameerat%20Vermelho" target="_blank">Consultar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="promocoes">
+    <div class="promo">
+      <h2>Promoções e últimas unidades</h2>
+      <p>Confira peças selecionadas com condições especiais. Disponibilidade sujeita ao estoque.</p>
+      <br>
+      <a class="btn" href="https://wa.me/5565999999999?text=Ol%C3%A1%2C%20quero%20ver%20as%20promo%C3%A7%C3%B5es%20da%20AK%20Signature" target="_blank">Ver promoções</a>
+    </div>
+  </section>
+
+  <footer id="contato">
+    <p><strong>AK Signature</strong></p>
+    <p>Catálogo online | Atendimento pelo WhatsApp e Instagram</p>
+    <br>
+    <a class="btn" href="https://wa.me/5565999999999" target="_blank">Falar no WhatsApp</a>
+  </footer>
+</body>
+</html>
